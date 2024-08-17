@@ -1,5 +1,5 @@
 # Bot-Ani? RWKV Twitter Bot Detection Project
-
+Detecting whether users are plants since 2024
 <p align="center">
   <img src="assets/twitter_bot_image.png" alt="Twitter Bot Image" width="300"/>
 </p>
