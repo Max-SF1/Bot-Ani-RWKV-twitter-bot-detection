@@ -79,7 +79,6 @@ class ClassificationHead(nn.Module):
 | **Preprocessed_dataset.parquet**    | The preprocessed dataset file.                                                                       |
 | **{NEED TO COMPLETE ONCE THE FINAL RUN'S DONE}** | Placeholder for the final output file after the run is complete.                             |
 
-To get started, make sure you have the required dependencies and packages to run the ipynb files
 
 
 ## Dataset
