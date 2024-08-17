@@ -78,6 +78,7 @@ class ClassificationHead(nn.Module):
 | **preprocessing_twitter_bot.ipynb** | Jupyter notebook for preprocessing and feature extraction, as well as importing the data into a Parquet file.    |
 | **Preprocessed_dataset.parquet**    | The preprocessed dataset file.                                                                       |
 | **{NEED TO COMPLETE ONCE THE FINAL RUN'S DONE}** | Placeholder for the final output file after the run is complete.                             |
+| **assets** | Folder containing images and graphs used in this readme.                             |
 
 
 
