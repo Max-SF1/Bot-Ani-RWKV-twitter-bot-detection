@@ -70,10 +70,17 @@ class ClassificationHead(nn.Module):
 
 
 ## Files
-- DL report contains an ethic statement, as well as a final report with an architecture description, experimentation and more.
-- preprocessing_twitter_bot.ipynb for preprocessing and feature extraction, as well as importing the data into a parquet file.
-- Preprocessed_dataset.parquet is the preprocessed dataset file.
-- {NEED TO COMPLETE ONCE THE FINAL RUN'S DONE} 
+
+
+| File                          | Description                                                                                           |
+|-------------------------------|-------------------------------------------------------------------------------------------------------|
+| **DL report**                 | Contains an ethics statement, as well as a final report with an architecture description, experimentation, and more. |
+| **preprocessing_twitter_bot.ipynb** | Jupyter notebook for preprocessing and feature extraction, as well as importing the data into a Parquet file.    |
+| **Preprocessed_dataset.parquet**    | The preprocessed dataset file.                                                                       |
+| **{NEED TO COMPLETE ONCE THE FINAL RUN'S DONE}** | Placeholder for the final output file after the run is complete.                             |
+
+To get started, make sure you have the required dependencies and packages to run the ipynb files
+
 
 ## Dataset
 The dataset we chose to work with is the huggingface AIRT-ML, “Twitter human bots dataset.” [3]. We chose it due to its size (not too big) and that it lets us perform feature extraction, which could prove very helpful. Looking at the objects at our dataset and their extracted textual features, we can see that there certainly are differences between bots and humans that can be used for the classification task.
