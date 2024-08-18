@@ -93,7 +93,23 @@ The training for classification was done via Cross Entropy loss as a surrogate f
 <p align="center">
   <img src="assets/loss_curves_first_3_epochs.png" alt="Twitter Bot Image" width="600"/>
 </p>
+We trained the model with the chosen learning rate of 2e − 5 for 12 epochs in total - saving the weights every epoch,
+and chosen the weights that performed best at epoch 5.
+<p align="center">
+  <img src="assets/Zero_one_loss_complete.png" alt="Twitter Bot Image" width="600"/>
+</p>
+The model with the best validation score achieved 0.81 accuracy on the test set, 72% recall and 72% accuracy. To
+compare these results seem to be on the same range as the BOTRGCN graph based method that scored an accuracy
+of 0.8462 [4], and trained on the Twi-Bot 20 dataset - while 3 percentages short, the Twi-bot dataset contains 200
+tweets per labeled object whereas our model uses data found in the profile only. In [5] An LSTM tweet classifier bot
+that trained on the PAN2019 dataset achieved 75% accuracy and 75% precision and recall, and BERT tweet classifier
+scored an 82 percent accuracy. Interestingly [6] trained a distillBert on the Kaggle bot detection dataset, which
+contains pre-processed descriptions and some numerical features, and achieved a precision of 49% on the test set.
 
+By comparing scores we can see that our model performs competitively with other architectures, and sometimes outperforms them in terms of accuracy.
+However, It's important to note that there are vast differences between the different datasets, so the comparison isn't direct. Despite that, an 82 percent 
+accuracy score is in our opinion very good, and we strongly believe that a larger model variation operating on a bigger dataset can indeed achieve performences on par with- or that exceed those of the current 
+dominant architectures. 
 
 ## References
 [1] Follower-Audit, twitter-gear image https://www.followeraudit.com/blog/how-to-spot-twitter-bots/
@@ -102,5 +118,15 @@ The training for classification was done via Cross Entropy loss as a surrogate f
 Monday, July 2017.
 
 [3] AIRT-ML, “Twitter human bots dataset.” https://huggingface.co/datasets/airt-ml/twitter-human-bots,
-2023. Accessed: 2024-08-13.
+2023. Accessed: 2024-08-13.  
+
+[4] S. Feng, H. Wan, N. Wang, and M. Luo, “Botrgcn: Twitter bot detection with relational graph convolutional
+networks,” in Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks
+Analysis and Mining, ASONAM ’21, ACM, Nov. 2021
+
+[5]  D. Duki´c, D. Keˇca, and D. Stipi´c, “Are you human? detecting bots on twitter using bert,” in 2020 IEEE 7th
+International Conference on Data Science and Advanced Analytics (DSAA), pp. 631–636, 2020.
+
+[6] G. Dutta, “Twitter bot detection using distilbert.” https://www.kaggle.com/code/gauravduttakiit/
+twitter-bot-detection-distilbert, 2024. Accessed: 2024-08-13.
 
