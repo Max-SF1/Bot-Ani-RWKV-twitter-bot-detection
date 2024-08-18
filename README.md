@@ -74,7 +74,7 @@ class ClassificationHead(nn.Module):
 
 | File                          | Description                                                                                           |
 |-------------------------------|-------------------------------------------------------------------------------------------------------|
-| **DL report**                 | Contains an ethics statement, as well as a final report with an architecture description, experimentation, and more. |
+| **DL Project report**                 | Final report with an  ethics statement, as well as an architecture description, experimentation, and more. |
 | **preprocessing_twitter_bot.ipynb** | Jupyter notebook for preprocessing and feature extraction, as well as importing the data into a Parquet file.    |
 | **Preprocessed_dataset.parquet**    | The preprocessed dataset file.                                                                       |
 | **{NEED TO COMPLETE ONCE THE FINAL RUN'S DONE}** | Placeholder for the final output file after the run is complete.                             |
