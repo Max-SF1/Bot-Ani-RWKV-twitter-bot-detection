@@ -90,6 +90,10 @@ The dataset we chose to work with is the huggingface AIRT-ML, “Twitter human b
 
 ## Training and Results 
 The training for classification was done via Cross Entropy loss as a surrogate for 0-1 Loss, since the latter isn't differentiable. The dataset was pre-processed as mentioned prior and then split into a training, validation and test set. For the training we tracked both 0-1 and cross entropy loss for both the training and validation sets, due to long training time we selected and trained the model with different step-sizes for 3 epochs - taking the promising step-size in terms of 0-1 loss in the validation set and training said model further.  
+<p align="center">
+  <img src="assets/loss_curves_first_3_epochs.png" alt="Twitter Bot Image" width="600"/>
+</p>
+
 
 ## References
 [1] Follower-Audit, twitter-gear image https://www.followeraudit.com/blog/how-to-spot-twitter-bots/
