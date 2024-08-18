@@ -74,10 +74,10 @@ class ClassificationHead(nn.Module):
 
 | File                          | Description                                                                                           |
 |-------------------------------|-------------------------------------------------------------------------------------------------------|
-| **DL Project report**                 | Final report with an  ethics statement, as well as an architecture description, experimentation, and more. |
+| **Final Report - Deep Learning Bot-Ani Project.pdf**                 | Final report with an  ethics statement, as well as an architecture description, experimentation, and more. |
 | **preprocessing_twitter_bot.ipynb** | Jupyter notebook for preprocessing and feature extraction, as well as importing the data into a Parquet file.    |
 | **Preprocessed_dataset.parquet**    | The preprocessed dataset file.                                                                       |
-| **{NEED TO COMPLETE ONCE THE FINAL RUN'S DONE}** | Placeholder for the final output file after the run is complete.                             |
+| **RWKV training** | Loading the datafile, RWKV model. Contains the and code for defining the classification model , training it and viewing the results.                          |
 | **assets** | Folder containing images and graphs used in this readme.                             |
 
 
