@@ -15,7 +15,7 @@ harmful ideologies. [2]. We care deeply about the task of bot detection, however
 elusiveness of several bots, bot moderation must be at least partially automated. 
 
 ## Architecture 
-We tuned the RWKV architecture and fitted it with a decision head, the hidden-layer embeddings of the model are extracted and concatenated with dimension transformed numerical features (both the ones included in the dataset, and ones we scraped ourselved). These get inputed to a small neural network that provides us with classification probabilities. 
+We tuned the RWKV architecture and fitted it with a decision head, the hidden-layer embeddings of the model are extracted and concatenated with dimension transformed numerical features (both the ones included in the dataset, and ones we scraped ourselved). These get inputted to a small neural network that provides us with classification probabilities. 
 <p align="center">
   <img src="assets/image.png" alt="Twitter Bot Image" width="500"/>
 </p>
